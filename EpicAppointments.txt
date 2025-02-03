@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schedule Your Free Roof Inspection | Epic Roofing</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 20px;
+        }
+        .container {
+            max-width: 500px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        input, button {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            background: #007BFF;
+            color: white;
+            cursor: pointer;
+            border: none;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Schedule Your Free Roof Inspection</h2>
+        <form action="https://formspree.io/f/mzzdgwen" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="text" name="address" placeholder="Your Address" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <input type="tel" name="phone" placeholder="Your Phone Number" required>
+            <label for="date">Preferred Date:</label>
+            <input type="date" name="date" required>
+            <button type="submit">Submit Request</button>
+        </form>
+        <p>We will contact you to confirm your appointment.</p>
+    </div>
+</body>
+</html>
